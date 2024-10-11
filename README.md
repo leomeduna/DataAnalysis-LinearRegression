@@ -6,7 +6,7 @@ Aplicar análise de regressão linear a um conjunto de dados.
 Usar técnicas de pré-processamento de dados para regressão linear.
 Interpretar os resultados obtidos de um modelo de regressão linear.
 Estrutura do Projeto
-Este projeto é desenvolvido em um notebook Jupyter (disponível no arquivo Leonardo_Meduna_LAB_04.ipynb) e pode ser executado no Google Colab para facilitar a análise e visualização.
+Este projeto é desenvolvido em um notebook Jupyter (disponível no arquivo Leonardo_Meduna_LAB_04.ipynb) e pode ser executado no Google Colab para facilitar a análise e visualização. Além disso, trata-se de um projeto iniciado e atribuído na faculdade, aplicar esse modelo de regressão linear.
 
 Passos para Execução
 Abra o notebook utilizando o Google Colab.
@@ -17,13 +17,14 @@ Faça o ajuste e a avaliação do modelo de regressão linear.
 Avaliação
 Durante a execução do notebook, siga as etapas para garantir uma análise completa:
 
-Estimação do modelo: Utilize o conhecimento adquirido para selecionar as melhores variáveis e construir um modelo eficiente.
-Técnicas de pré-processamento: Aplique corretamente técnicas como transformação de variáveis categóricas, normalização e manipulação de valores nulos.
-Avaliação do modelo: Utilize métricas estatísticas (R², RMSE, etc.) para validar o desempenho do modelo.
+Estimação do modelo: Utilizei o conhecimento adquirido para selecionar as melhores variáveis e construir um modelo eficiente.
+Técnicas de pré-processamento: Apliquei técnicas como transformação de variáveis categóricas, normalização e manipulação de valores nulos.
+Avaliação do modelo: Utilizei métricas estatísticas (R², RMSE, etc.) para validar o desempenho do modelo.
+
 Interpretação dos Resultados
-Explique detalhadamente os coeficientes do modelo, sua significância e impacto nas variáveis independentes.
-Inclua visualizações (gráficos de dispersão, linhas de ajuste, etc.) para suportar suas conclusões.
-Analise o ajuste geral do modelo e discuta a qualidade das previsões.
+Expliquei os coeficientes do modelo, sua significância e impacto nas variáveis independentes.
+Incluí visualizações (gráficos de dispersão, linhas de ajuste, etc.) para suportar as conclusões.
+Analisei o ajuste geral do modelo e discuti a qualidade das previsões.
 Ferramentas Utilizadas
 Python: Linguagem principal.
 Bibliotecas:
