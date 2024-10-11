@@ -1,36 +1,42 @@
-Projeto de Regressão Linear - LAB 04
-Este projeto visa aplicar e interpretar a análise de regressão linear em um conjunto de dados de queimadas e seus fatores. Ele envolve técnicas de pré-processamento e ajuste de modelos para explorar a relação entre variáveis, utilizando ferramentas apropriadas para obter os melhores resultados.
+Projeto: Análise e Modelagem de Dados com Regressão Linear
+Este repositório contém dois notebooks que abordam diferentes aspectos da análise de regressão linear usando dados reais. Os notebooks focam em como aplicar técnicas de Machine Learning para prever variáveis dependentes com base em variáveis independentes, utilizando abordagens como validação cruzada e k-fold.
 
-Objetivos de Aprendizagem
-Aplicar análise de regressão linear a um conjunto de dados.
-Usar técnicas de pré-processamento de dados para regressão linear.
-Interpretar os resultados obtidos de um modelo de regressão linear.
-Estrutura do Projeto
-Este projeto é desenvolvido em um notebook Jupyter (disponível no arquivo Leonardo_Meduna_LAB_04.ipynb) e pode ser executado no Google Colab para facilitar a análise e visualização. Além disso, trata-se de um projeto iniciado e atribuído na faculdade, aplicar esse modelo de regressão linear.
+Notebooks
+##1. Leonardo_Meduna_LAB_04.ipynb
+Este notebook abrange um processo completo de análise de dados e modelagem usando regressão linear.
 
-Passos para Execução
-Abra o notebook utilizando o Google Colab.
-Revise o conteúdo inicial para entender o conjunto de dados e as variáveis envolvidas.
-Aplique as técnicas de regressão linear ensinadas, utilizando bibliotecas como pandas, numpy, matplotlib e scikit-learn.
-Realize o pré-processamento dos dados (tratamento de valores ausentes, normalização, codificação de variáveis categóricas).
-Faça o ajuste e a avaliação do modelo de regressão linear.
-Avaliação
-Durante a execução do notebook, siga as etapas para garantir uma análise completa:
+Primeiros passos:
+Instalação de bibliotecas necessárias: ucimlrepo para carregar datasets.
+Exploração de dados:
+Carregamento e pré-processamento de dados, incluindo a identificação de variáveis categóricas e a conversão dessas variáveis para o formato binário.
+Treinamento do modelo:
+Utilização de várias combinações de variáveis independentes para determinar a melhor performance do modelo.
+Avaliação do modelo:
+Cálculo de métricas como R², MAE, MAPE, MSE e RMSE, que indicam a performance do modelo. Os resultados indicaram baixa correlação entre as variáveis independentes e a variável dependente area, resultando em um modelo com desempenho insatisfatório.
 
-Estimação do modelo: Utilizei o conhecimento adquirido para selecionar as melhores variáveis e construir um modelo eficiente.
-Técnicas de pré-processamento: Apliquei técnicas como transformação de variáveis categóricas, normalização e manipulação de valores nulos.
-Avaliação do modelo: Utilizei métricas estatísticas (R², RMSE, etc.) para validar o desempenho do modelo.
+##2. kfold_lm_regression.ipynb
+Este notebook foca na implementação de uma abordagem de validação cruzada k-fold para a modelagem de regressão linear.
 
-Interpretação dos Resultados
-Expliquei os coeficientes do modelo, sua significância e impacto nas variáveis independentes.
-Incluí visualizações (gráficos de dispersão, linhas de ajuste, etc.) para suportar as conclusões.
-Analisei o ajuste geral do modelo e discuti a qualidade das previsões.
-Ferramentas Utilizadas
-Python: Linguagem principal.
+Primeiros passos:
+
+Instalação de bibliotecas necessárias.
+Divisão de dados:
+
+Aplicação da técnica de k-fold, dividindo os dados em múltiplos subconjuntos de treino e teste para avaliar a robustez do modelo.
+Treinamento e validação:
+
+Treinamento e validação do modelo em cada iteração do k-fold, resultando em múltiplas métricas de desempenho.
+Avaliação final:
+
+O modelo foi considerado inadequado devido a uma baixa correlação entre as variáveis e altos valores de erro (como o MAPE elevado). A conclusão foi que o modelo precisaria de ajustes ou mais dados para melhorar sua performance.
+Conclusões
+Ambos os notebooks demonstram a importância de se avaliar as correlações entre variáveis ao se treinar modelos preditivos. Em ambos os casos, a análise indicou que as variáveis independentes não eram adequadas para explicar a variável dependente com precisão. Isso é evidenciado pelos baixos valores de R² e altos valores de erro nas métricas MAE, MAPE, MSE e RMSE.
+
+Requisitos
+Python 3.x
 Bibliotecas:
-pandas para manipulação de dados.
-numpy para operações numéricas.
-matplotlib e seaborn para visualizações.
-scikit-learn para construção e avaliação de modelos de regressão.
-Conclusão
-Este projeto oferece uma experiência prática em regressão linear, permitindo que você desenvolva habilidades essenciais em análise de dados, pré-processamento e interpretação de modelos estatísticos
+ucimlrepo
+Pandas
+NumPy
+Scikit-learn
+Matplotlib
